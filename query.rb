@@ -4,7 +4,7 @@ class Query
 
   def initialize(keywords=[])
     @@query_number +=1
-    query_index = QUERY+(@@query_number).to_s
+    query_index = 'QUERY'+(@@query_number).to_s
     @@query_keywords[query_index] = keywords
   end
 

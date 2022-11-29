@@ -6,7 +6,7 @@ class Page
 
   def initialize(keywords=[])
     @@page_number += 1
-    page_index = PAGE+(@@page_number).to_s
+    page_index = 'PAGE'+(@@page_number).to_s
     @@page_keywords[page_index] = keywords
   end
 
